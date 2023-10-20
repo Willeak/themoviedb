@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>JS AVANCE</title>
+  </head>
+  <body>
+    <header>
+      <h1>JS AVANCE</h1>
+      <h2>Projet : themoviedb.org</h2>
+    </header>
+
+    <main>
+      <!-- section recherche de film -->
+      <section>
+        <h2>Recherche de film</h2>
+        <!-- barre de recherche de film -->
+        <form>
+          <input
+            type="text"
+            name="searchBar"
+            id="valueResearchBar"
+            placeholder="Nom d'un film ?"
+          /><button type="submit" id="searchBar">Rechercher</button>
+        </form>
+        <div class="pagination">
+          <button id="prev">Précédent</button>
+          <p id="pageNumber"></p>
+          <button id="next">Suivant</button>
+        </div>
+        <div id="resultResearchBar">vide</div>
+      </section>
+
+      <!-- section vitrine du film selectionné -->
+      <section>
+        <h2>Vitrine du film</h2>
+        <div id="specificMovie">vide</div>
+      </section>
+    </main>
+    <footer>Réalisé par DUCATEZ Calvin - 20/10/2023 - 3wa</footer>
+  </body>
+</html>
